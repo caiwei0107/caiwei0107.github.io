@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>作品集</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/about.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script type="text/javascript" src="js/vendor/modernizr-3.3.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="wrap">
+<div class="wrapper">
+	<!-- start header-->
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="cssmenu">
+			<ul>
+			  	<li><a href="index.html">主页</a></li>
+				<li class="has-sub"><a href="about.html">关于我</a></li>
+				<li class="active"><a href="portfolio.html">作品集</a></li>
+				<li><a href="search.html">搜索</a></li>
+				<li><a href="contact.html">联系我</a></li>
+				
+				<div class="clear"></div>
+			 </ul>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li ><a href="about.html">关于我</a></li>
+					<li><a href="portfolio.html">作品集</a></li>
+					<li><a href="search.html">搜索</a></li>
+					<li><a href="contact.html">联系我</a></li>
+				</ul>
+				<a href="#" id="pull">菜单</a>
+			</nav>
+		</div>
+	</div>
+    <!-- start content -->
+	 <div class="main1">
+	 	<div class="ace-container">    
+                    <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+                        <div class="ace-nav-cont">
+                            <div id="ace-nav-tools" class="hidden">
+                                <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+
+                                <button id="ace-nav-arrow" class="clear-btn">
+                                    <span class="ace-icon ace-icon-chevron-thin-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="ace-nav-btm"></div>
+                    </div><!-- .ace-nav-wrap -->
+
+                <div class="ace-paper-stock">
+                    <main class="ace-paper clearfix">
+                        <div class="ace-paper-cont clear-mrg">
+						
+						<!-- START: PAGE CONTENT -->
+
+<div class="padd-box">
+    <h1 class="title-lg text-upper">个人作品集</h1>
+</div>
+
+
+<div class="pf-wrap">
+    <div class="pf-filter padd-box">
+        <button data-filter="*" class="active">all</button>
+        <button data-filter=".photography">Android Application</button>
+        <button data-filter=".design">System Design</button>
+    </div><!-- .pf-filter -->
+
+    <div class="pf-grid loaded" style="position: relative; height: 1106.4px;">
+        <div class="pf-grid-sizer"></div><!-- used for sizing -->
+
+        <div class="pf-grid-item photography" style="position: absolute; left: 0%; top: 0px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="images/pro1.png" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">Android应用开发</h2>
+                            <p>基于TensorFlow和树莓派在Android平台上的智能室内监控应用</p>
+                            <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-1" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media" style="background: url(images/pro1-1.png);">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">基于TensorFlow和树莓派在Android平台上的智能室内监控应用</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>2018</dd>
+                        </dl>
+                        <br />
+                        <br />
+                        <p>随着生活水平的提高，人们急切需要更加安全的生活环境。目前，市场上的监控系统仅仅是在记录画面，并不能在危险发生过程中，利用记录的画面分析出危险行为，主动向人们发出报警，也没有结合移动应用进行快捷方便的操作。</p>
+<p>由此我和团队设计了基于TensorFlow和树莓派在Android平台上的智能室内监控应用，实时对监控画面进行分析，当出现可疑人士即并非事先预设的家庭成员时，就会立即上传可疑人士图像，并向安装了Android应用的用户发出报警信息。</p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item photography">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="images/pro2.png" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">Android应用开发</h2>
+                            <p>基于TensorFlow实时物体识别技术的智能早教Android应用</p>
+                            <a href="#pf-popup-2" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-2" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media" style="background: url(images/pro2-1.png);">
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">基于TensorFlow实时物体识别技术的智能早教Android应用</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>2019</dd>
+                        </dl>
+                        <br />
+                        <br />
+                        <p>在移动互联的背景下，越来越多的家长和早教老师选择为孩子挑选合适的教育类 App 产品作为教辅。
+                        	我国人口基数大、儿童教育问题层出不穷，家长花在早教、智力开发等方面的教育投资随着经济的发展和移动设备的普及也越来越多。
+                        	但是，目前市场上的早教应用存在内容趋同、教育性不强、创新力不足、功能操作同质化、用户体验差等问题。
+                        	因此，目前大部分早教应用无法满足大多数用户需求且用户粘性不足。
+                        	同时，在前期调研时发现，市场上还没有一款与人工智能相结合的早教应用。
+                        	为此，我和团队创新性地提出了设计开发一款基于TensorFlow实时物体识别技术的智能早教Android应用。
+                        	该应用结合人工智能，通过实现移动端的图像识别以及构建一套完整的智能学习体系从而改进传统早教应用的众多不足，满足用户需求并开拓早教应用市场。 </p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+        <div class="pf-grid-item design" style="position: absolute; left: 0%; top: 276px;">
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="images/pro3.png" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">系统开发设计</h2>
+                            <p>基于无人机快速建模的虚拟交互校园漫游系统调研——以中南财经政法大学为例</p>
+                            <a href="#pf-popup-3" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-3" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media" style="background: url(images/pro3-1.png);">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">基于无人机快速建模的虚拟交互校园漫游系统调研——以中南财经政法大学为例</h2>
+                        <p class="text-muted"><strong>design / development</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>Date:</dt>
+                            <dd>2017</dd>
+                        </dl>
+                        <br />
+                        <br />
+                        <p>每一个校园都具有自己独特的文化底蕴、地域色彩、历史传承以及现代特色，畅游其中就能够感受到学校的校园特色以及文化魅力。
+然而，鉴于时间、空间等种种客观原因，并不是人人都有机会真正亲临传统的大学校园感受大学的气息，利用虚拟现实技术构建三维虚拟校园为此提供了一种解决途径。
+三维虚拟校园场景能够模拟现实校园布局与风貌，基于三维交互等操作可以体验类似真实校园的功能、特色以及感受，从感官角度体会大学校园的魅力，感受虚拟校园的强大影响力。
+为了低成本，高精度的建立虚拟校园模型，无人机航测建模功能映入人们的眼帘。
+通过搭载多台传感器和相机，空中获取校园建筑信息，3D建模软件将采集的图象信息生成3D数字模型，集成虚拟校园交互漫游系统。
+为了探究该系统实现的可行性和广大师生对该系统的接受度，我和团队开展一系列调研工作。</p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+
+</div>
+</div>
+
+<script type="text/javascript" src="js/plugins/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/plugins/progressbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/slick.min.js"></script>
+
+<script type="text/javascript" src="js/options.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

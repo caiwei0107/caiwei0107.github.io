@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>个人信息</title>
+    <meta name="description" content="">
+    
+    <link href="css/solarized-light.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet"/>
+    <!-- Modernizer -->
+    <script type="text/javascript" src="js/modernizr-3.3.1.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>  
+</head>
+  <body>
+  	<div class="wrapper">
+  		  	<div class="header">
+		
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="cssmenu">
+			<ul>
+			  	<li><a href="index.html">主页</a></li>
+			  	<li class="active"><a href="about.html">关于我</a></li>
+				<li><a href="portfolio.html">作品集</a></li>
+				<li><a href="search.html">搜索</a></li>
+				<li><a href="contact.html">联系我</a></li>
+				<div class="clear"></div>
+			 </ul>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li ><a href="about.html">关于我</a></li>
+					<li><a href="portfolio.html">作品集</a></li>
+					<li><a href="search.html">搜索</a></li>
+					<li><a href="contact.html">联系我</a></li>
+				</ul>
+				<a href="#" id="pull">菜单</a>
+			</nav>
+		</div>
+	</div>
+     <div class="ace-wrapper">
+        
+        <article id="ace-card" class="ace-card bg-primary">
+			<div class="ace-card-inner text-center">
+				<img class="avatar avatar-195" src="images/me.jpg" width="195" height="195" alt="">
+				<h1>蔡玮</h1>
+				<p class="text-muted">中南财经政法大学</p>
+				<p class="text-muted">信息与安全工程学院</p>
+				<p class="text-muted">信管1602</p>
+			</div>
+
+		</article><!-- #ace-card -->
+
+        <div id="ace-content" class="ace-container-shift">
+            <div class="ace-container">      
+                <div class="ace-paper-stock">
+                    <main class="ace-paper clearfix">
+                        <div class="ace-paper-cont clear-mrg">
+						<!-- START: PAGE CONTENT -->
+    <div class="padd-box clear-mrg">
+        <section class="section brd-btm">
+            <div class="row">
+                <div class="col-sm-12 clear-mrg text-box">
+                    <h2 class="title-lg text-upper">个人信息</h2>
+
+                    <p><b>你好，我是蔡玮</b><br>
+                       我叫蔡玮，今年20岁，来自海南，是中南财经政法大学信息与安全工程学院信管1602班的一名学生。</p>
+                </div>
+            </div>
+        </section><!-- .section -->
+
+        <section class="section brd-btm">
+            <div class="row">
+                <div class="col-sm-6 clear-mrg">
+                    <h2 class="title-thin text-muted">personal information</h2>
+
+                    <dl class="dl-horizontal clear-mrg">
+                        <dt class="text-upper">姓名</dt>
+                        <dd>蔡玮</dd>
+
+                        <dt class="text-upper">出生日期</dt>
+                        <dd>1999.01.07</dd>
+
+                        <dt class="text-upper">地址</dt>
+                        <dd>中南财经政法大学南湖校区</dd>
+
+                        <dt class="text-upper">e-mail</dt>
+                        <dd><a href="1043650476@qq.com">1043650476@qq.com</a></dd>
+
+                        <dt class="text-upper">Tel</dt>
+                        <dd>18789382255</dd>
+
+                        <dt class="text-upper">专业</dt>
+                        <dd>信息管理与信息系统(金融信息工程方向)</dd>
+                        
+                    </dl>
+                </div><!-- .col-sm-6 -->
+<div class="col-sm-6 clear-mrg">
+                    <h2 class="title-thin text-muted">Performance</h2>
+
+                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                        <strong class="progress-title">程序设计</strong>
+                        <span class="progress-bar">
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                           
+                        </span>
+                        <span class="progress-text text-muted">99分</span>
+                    </div>
+
+                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">
+                        <strong class="progress-title">数据库系统原理</strong>
+                        <span class="progress-bar">
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet"></span>
+                            
+                        </span>
+                        <span class="progress-text text-muted">90分</span>
+                    </div>
+
+                    <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">
+                        <strong class="progress-title">运筹学</strong>
+                        <span class="progress-bar">
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            <span class="bullet fill"></span>
+                            
+                        </span>
+                        <span class="progress-text text-muted">98分</span>
+                    </div>
+                </div>
+               </div><!-- .row -->
+        </section><!-- .section -->
+
+        <section class="section brd-btm">
+            <div class="row">
+                <div class="col-sm-6 clear-mrg">
+                    <h2 class="title-thin text-muted">professional skills</h2>
+
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="progress-chart ace-animate" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" data-text="90%" data-value="0.9"></div>
+                                <strong class="progress-title">HTML/CSS</strong>
+                            </div>
+                        </div><!-- .col-xs-4 -->
+
+                        <div class="col-xs-4">
+                            <div class="progress-chart ace-animate" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" data-text="90%" data-value="0.9"></div>
+                                <strong class="progress-title">C++/C</strong>
+                            </div>
+                        </div><!-- .col-xs-4 -->
+
+                        <div class="col-xs-4">
+                            <div class="progress-chart ace-animate" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" data-text="90%" data-value="0.9"></div>
+                                <strong class="progress-title">JAVA</strong>
+                            </div>
+                        </div><!-- .col-xs-4 -->
+                    </div><!-- .row -->
+                </div><!-- .col-sm-6 -->
+
+                <div class="col-sm-6 clear-mrg">
+                    <h2 class="title-thin text-muted">professional skills</h2>
+
+                    <div class="progress-line ace-animate" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <strong class="progress-title">R语言</strong>
+                        <div class="progress-bar" data-text="90%" data-value="0.9"></div>
+                    </div>
+
+                    <div class="progress-line ace-animate" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <strong class="progress-title">Python</strong>
+                        <div class="progress-bar" data-text="80%" data-value="0.8"></div>
+                    </div>
+
+                    <div class="progress-line ace-animate" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <strong class="progress-title">C#</strong>
+                        <div class="progress-bar" data-text="80%" data-value="0.8"></div>
+                    </div>
+                </div><!-- .col-sm-6 -->
+            </div><!-- .row -->
+        </section><!-- .section -->
+
+       
+        <section class="section">
+            <h2 class="title-thin text-muted">Awards and Achievements</h2>
+
+            <div class="row">
+                <div class="col-sm-6 clear-mrg">
+                    <div class="award-box">
+                       
+                        <h3 class="award-title">优秀学生奖学金(一等奖)</h3>
+                        <div class="award-text text-muted clear-mrg">
+                            <p>2017-2018年获校优秀学生奖学金(一等奖)</p>
+                        </div>
+                    </div>
+                </div><!-- .col-sm-6 -->
+                
+                <div class="col-sm-6 clear-mrg">
+                    <div class="award-box">
+                        <h3 class="award-title">雷锋式宣传员</h3>
+
+                        <div class="award-text text-muted clear-mrg">
+                            <p>2018年获全国“雷锋式宣传员”称号</p>
+                        </div>
+                    </div>
+                </div><!-- .col-sm-6 -->
+
+                
+            </div><!-- .row -->
+        </section><!-- .section -->
+    </div><!-- .padd-box -->
+<!-- END: PAGE CONTENT -->
+						
+                </div><!-- .ace-paper-cont -->
+            </main><!-- .ace-paper -->
+        </div><!-- .ace-paper-stock -->
+
+        </div><!-- .ace-container -->
+    </div><!-- #ace-content -->
+
+   
+    <!-- Triangle Shapes -->
+    <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+        <polygon points="0,455,693,352,173,0,92,0,0,71" style="fill:#d2d2d2;stroke:purple;stroke-width:0; opacity: 0.5">
+    </svg>
+
+    <svg id="ace-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+        <polygon points="0,0,633,0,633,536" style="fill:#c0e3e7;stroke:purple;stroke-width:0" />
+    </svg>
+</div><!-- .ace-wrapper -->
+
+  	
+  	</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/vendor/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/plugins/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/plugins/progressbar.min.js"></script>
+<script type="text/javascript" src="js/plugins/slick.min.js"></script>
+
+<script type="text/javascript" src="js/options.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

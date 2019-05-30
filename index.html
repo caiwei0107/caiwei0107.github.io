@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>蔡玮的个人主页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="css/time.css" rel="stylesheet"/>
+<link href="css/about.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="wrap">
+<div class="wrapper">
+	<!-- start header-->
+	<div class="header">
+		
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="cssmenu">
+			<ul>
+			  	<li class="active"><a href="index.html">主页</a></li>
+			  	<li ><a href="about.html">关于我</a></li>
+				<li><a href="portfolio.html">作品集</a></li>
+				<li><a href="search.html">搜索</a></li>
+				<li><a href="contact.html">联系我</a></li>
+				<div class="clear"></div>
+			 </ul>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li ><a href="about.html">关于我</a></li>
+					<li><a href="portfolio.html">作品集</a></li>
+					<li><a href="search.html">搜索</a></li>
+					<li><a href="contact.html">联系我</a></li>
+				</ul>
+				<a href="#" id="pull">菜单</a>
+			</nav>
+		</div>
+	</div>
+	<!-- start banner -->
+    <div class="banner">
+    	 <img src="images/banner.png" alt="" />
+    	 <h2>欢迎来到我的个人主页</h2>
+    	 <!--
+         	作者：offline
+         	时间：2019-05-29
+         	描述：<h3>个人简介</h3>
+         -->
+    	 
+    </div>
+  
+   <!-- start content -->
+	 <div class="main">
+	 	<div class="content">
+	 	 	<h2>个人信息</h2>
+	 	</div>
+	 	 <main class="ace-paper clearfix">
+                        <div class="ace-paper-cont clear-mrg">
+						
+						<!-- START: PAGE CONTENT -->
+    <div class="padd-box clear-mrg">
+        <section class="section brd-btm">
+            <div class="row">
+                <div class="col-sm-12 clear-mrg text-box">
+                    <p><b>你好</b><br>
+                        我叫蔡玮，今年20岁，来自海南，是中南财经政法大学信息与安全工程学院信管1602班的一名学生。</p>
+
+                </div>
+            </div>
+        </section><!-- .section -->
+
+        <section class="section brd-btm">
+            <div class="row">
+                <div class="col-sm-6 clear-mrg">
+                    <h2 class="title-thin text-muted">personal information</h2>
+
+                    <dl class="dl-horizontal clear-mrg">
+                        <dt class="text-upper">姓名</dt>
+                        <dd>蔡玮</dd>
+
+                        <dt class="text-upper">出生日期</dt>
+                        <dd>1999.01.07</dd>
+
+                        <dt class="text-upper">地址</dt>
+                        <dd>中南财经政法大学南湖校区</dd>
+
+                        <dt class="text-upper">e-mail</dt>
+                        <dd><a href="1043650476@qq.com">1043650476@qq.com</a></dd>
+
+                        <dt class="text-upper">Tel</dt>
+                        <dd>18789382255</dd>
+
+                        <dt class="text-upper">专业</dt>
+                        <dd>信息管理与信息系统(金融信息工程方向)</dd>
+                    </dl>
+                </div><!-- .col-sm-6 -->
+				<div class="col-sm-6 clear-mrg">
+					<img src="images/me.jpg" />
+				</div>
+                </div><!-- .row -->
+        </section><!-- .section -->
+       
+    </div><!-- .padd-box -->
+<!-- END: PAGE CONTENT -->
+ <div class="experience">
+		<div class="container">
+			<div class="exp-top">
+				<h3 class="top-title">个人经历</h3>
+				<span class="line"></span>
+			</div>
+			<div class="exp-devide">
+				<h4>Education</h4>
+				<span class="devide-line">
+				</span>
+				<label class="bag"></label>
+				<div class="exp-devide-grid-right">
+					<h5>中南财经政法大学</h5>
+					<small>2016.9-至今</small>
+					<p>自2016年就读于中南财经政法大学信息与安全工程学院</p>
+				</div>
+				<div class="exp-devide-grid-left">
+					<h5>海南中学</h5>
+					<small>2013.9-2016.6</small>
+					<p>就读于海南省海南中学</p>
+				</div>
+				<div class="exp-devide-grid-rightb">
+					<h5>丰和学校</h5>
+					<small>2011.9-2013.6</small>
+					<p>就读于三亚市丰和学校</p>
+				</div>
+				<div class="exp-devide-grid-left1">
+					<h5>实验中学</h5>
+					<small>2010.9-2011.6</small>
+					<p>就读于三亚市实验中学(现海南省三亚学校)</p>
+				</div>
+				<div class="exp-devide-grid-right2">
+					<h5>三亚市第七小学</h5>
+					<small>2004.9-2010.6</small>
+					<p>就读于三亚市第七小学</p>
+				</div>
+			</div>
+			</div>
+	</div>
+
+						
+                </div><!-- .ace-paper-cont -->
+            </main>
+   	
+	 	 <div class="content">
+	 	 	<h2>个人展示</h2>
+	 	 </div>
+	 	 <div class="grids_of_4">
+				<div class="grid_1_of_4 images_1_of_4">
+					<a href="#"><img src="images/pro1.png" title="Project1" alt=""/></a>
+					 <h3><a href="#">基于TensorFlow和树莓派在Android平台上的智能室内监控应用</a></h3>
+					 <h4><a href="#">了解更多</h4></a> 
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="#"><img src="images/pro22.png" title="Project2" alt=""/></a>
+					 <h3><a href="#">基于TensorFlow实时物体识别技术的智能早教Android应用</a></h3>
+					 <h4><a href="#">了解更多</a></h4>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="#"><img src="images/pro3.png" title="Project3" alt=""/></a>
+					 <h3><a href="#">基于无人机快速建模的虚拟交互校园漫游系统调研——以中南财经政法大学为例</a> </h3>
+					 <h4><a href="#">了解更多</a></h4>
+				</div>
+				<div class="grid_1_of_4 images_1_of_4">
+					 <a href="#"><img src="images/pro4.jpg" title="Project4" alt=""/></a>
+					 <div >
+					 	<h3><a href="#">区块链技术在教育领域的应用模式与挑战——以MIT电子学习证书APP和索尼教育基础技术平台为例</a></h3>
+					 	<h4><a href="#">了解更多</a></h4>
+					 </div>
+					 
+				</div>
+				<div class="clear"></div>
+			</div>
+	 	 	 
+ 	 </div>
+</div>
+</div>
+
+</body>
+</html>
